@@ -54,6 +54,9 @@
 		EA6AA3A51CB35C6A0016BE87 /* TheWeather */ = {
 			isa = PBXGroup;
 			children = (
+				EA6AA3B81CB36AEF0016BE87 /* Model */,
+				EA6AA3B91CB36AF40016BE87 /* View */,
+				EA6AA3BA1CB36AF90016BE87 /* Controller */,
 				EA6AA3A61CB35C6A0016BE87 /* AppDelegate.swift */,
 				EA6AA3A81CB35C6A0016BE87 /* ViewController.swift */,
 				EA6AA3AA1CB35C6A0016BE87 /* Main.storyboard */,
@@ -62,6 +65,27 @@
 				EA6AA3B21CB35C6A0016BE87 /* Info.plist */,
 			);
 			path = TheWeather;
+			sourceTree = "<group>";
+		};
+		EA6AA3B81CB36AEF0016BE87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EA6AA3B91CB36AF40016BE87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EA6AA3BA1CB36AF90016BE87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

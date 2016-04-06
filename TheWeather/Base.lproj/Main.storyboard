@@ -16,10 +16,24 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LA" translatesAutoresizingMaskIntoConstraints="NO" id="LYJ-c2-CgO">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LYJ-c2-CgO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5kF-JO-nHf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LYJ-c2-CgO" secondAttribute="bottom" id="HNj-jV-hWW"/>
+                            <constraint firstAttribute="trailing" secondItem="LYJ-c2-CgO" secondAttribute="trailing" id="lBl-iI-gO5"/>
+                            <constraint firstItem="LYJ-c2-CgO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oA8-zo-nDG"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="PfH-te-rEh"/>
+                    <navigationItem key="navigationItem" id="PfH-te-rEh">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="i6e-vr-4zq"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -30,11 +44,11 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="h5G-V7-m27" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IVe-8m-GKO">
+                    <navigationBar key="navigationBar" opaque="NO" contentMode="scaleToFill" shadowImage="LA" id="IVe-8m-GKO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
-                        <color key="barTintColor" red="0.48494269849999999" green="0.69269910850000005" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -46,4 +60,7 @@
             <point key="canvasLocation" x="359" y="-303"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LA" width="2880" height="1800"/>
+    </resources>
 </document>
